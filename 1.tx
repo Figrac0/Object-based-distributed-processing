@@ -1,0 +1,4 @@
+DELETE FROM Books;
+DELETE FROM Authors;
+DELETE FROM sqlite_sequence WHERE name='Books';
+DELETE FROM sqlite_sequence WHERE name='Authors';
